@@ -459,3 +459,14 @@ nav.navbar li a:hover{
     margin-top: 35px;
     transition: 0.3s;
 }
+
+/*
+    RESPONSIVNES
+*/
+
+@media only screen and (max-width: 1680px){
+
+    body{
+        display: none;
+    }
+}

@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -21,14 +22,14 @@
                 <div class="col-md-3">
                     <p class="lead wall-sticker">
                         we. <br> plant. <br> trees. <br>
-                        <a href=""><button class="btn btn-primary btn-lg">Learn more</button></a>
+                        <a href="#features"><button class="btn btn-primary btn-lg">Learn more</button></a>
                     </p>
                 </div>
                 <div class="col-md-9">
                     <h1 class="moto">For <span class="bold-green">every</span> item sold, we plant 1 tree.
                         <br><br> Want to become <span class="green-underline">part</span> of it?
                     </h1>
-                    <a href=""><i class="fa fa-arrow-down"></i></a>
+                    <a href="#cards"><i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
         </div>
@@ -36,29 +37,29 @@
 
     <nav class="navbar navbar-dark navbar-full bg-inverse">
 
-        <a href="" class="navbar-brand">ONE<span class="bold-green">TREE</span></a>
+        <a href="#cover" class="navbar-brand">ONE<span class="bold-green">TREE</span></a>
 
         <ul class="nav navbar-nav">
             <li class="nav-item">
-                <a href="" class="nav-link">Home</a>
+                <a href="#cover" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Features</a>
+                <a href="#features" class="nav-link">Features</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Timeline</a>
+                <a href="#timeline" class="nav-link">Timeline</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Products</a>
+                <a href="#cards" class="nav-link">Products</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Numbers</a>
+                <a href="#numbers" class="nav-link">Numbers</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Testimonials</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Contact us</a>
+                <a href="#contact" class="nav-link">Contact us</a>
             </li>
         </ul>
 
@@ -71,14 +72,14 @@
 
     <!-- FEATURES -->
 
-    <section class="features section">
+    <section class="features section" id="features">
 
         <div class="container">
 
             <div class="row section-title">
                 <div class="col-md-12">
-                    <h1>WHAT <span class="bold-green">WE</span> DO?</h1>
-                    <h3>TAKE A LOOK OF WHAT WE DO AS A COMPANY</h3>
+                    <h1 class="js-wp" data-animate="fadeInDown" data-animate-in>WHAT <span class="bold-green">WE</span> DO?</h1>
+                    <h3 class="js-wp" data-animate="fadeInDown" data-animate-in>TAKE A LOOK OF WHAT WE DO AS A COMPANY</h3>
                 </div>
             </div>
 
@@ -86,22 +87,22 @@
 
             <div class="row">
                 <div class="col-md-3 features-block">
-                    <i class="fa fa-tree" aria-hidden="true"></i>
+                    <i class="fa fa-tree js-wp" data-animate="fadeInLeft" data-animate-in data-animate-delay="0s" aria-hidden="true"></i>
                     <hr>
                     <p>We actually planted this tree a long time ago and didn't do anything since</p>
                 </div>
                 <div class="col-md-3 features-block">
-                    <i class="fa fa-leaf" aria-hidden="true"></i>
+                    <i class="fa fa-leaf js-wp" data-animate="fadeIn" data-animate-in data-animate-delay="0.3s" aria-hidden="true"></i>
                     <hr>
                     <p>This is another icon to make you assured that we are actually doing something</p>
                 </div>
                 <div class="col-md-3 features-block">
-                    <i class="fa fa-pagelines" aria-hidden="true"></i>
+                    <i class="fa fa-pagelines js-wp" data-animate="fadeIn" data-animate-in data-animate-delay="0.6s" aria-hidden="true"></i>
                     <hr>
                     <p>Yet another icon to represent the company we are</p>
                 </div>
                 <div class="col-md-3 features-block">
-                    <i class="fa fa-recycle" aria-hidden="true"></i>
+                    <i class="fa fa-recycle js-wp" data-animate="fadeInRight" data-animate-in data-animate-delay="0.9s" aria-hidden="true"></i>
                     <hr>
                     <p>We recycle all the time, you can do it too</p>
                 </div>
@@ -112,7 +113,7 @@
     </section>
 
     <!-- TIMELINE -->
-    <section class="timeline section">
+    <section class="timeline section" id="timeline">
         <div class="container">
             <div class="row section-title">
                 <div class="col-md-12">
@@ -124,7 +125,7 @@
                 <div class="col-md-12">
 
                     <ul>
-                        <li>
+                        <li class="js-wp" data-animate="fadeInUp" data-animate-in>
                             <div class="timeline-badge">
                                 2016
                             </div>
@@ -141,7 +142,7 @@
                             </div>
 
                         </li>
-                        <li>
+                        <li class="js-wp" data-animate="fadeInUp" data-animate-in>
                             <div class="timeline-badge">
                                 2015
                             </div>
@@ -158,7 +159,7 @@
                             </div>
 
                         </li>
-                        <li>
+                        <li class="js-wp" data-animate="fadeInUp" data-animate-in>
                             <div class="timeline-badge">
                                 2014
                             </div>
@@ -182,19 +183,19 @@
     </section>
 
     <!-- PARALAX -->
-    <section class="paralax" data-type="background" data-speed="4">
+    <section class="paralax" data-type="background" data-speed="4" id="paralax">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 push-sm-2">
                     <h2>Are you ready to be a part of <strong>the story</strong>?</h2>
-                    <p><a href="" class="btn btn-success btn-lg btn-block">Yes, please!</a></p>
+                    <p><a href="#contact" class="btn btn-success btn-lg btn-block">Yes, please!</a></p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- PRODUCTS -->
-    <section class="cards section">
+    <section class="cards section" id="cards">
         <div class="container">
 
             <div class="row section-title">
@@ -259,7 +260,7 @@
     </section>
 
     <!-- NUMBERS -->
-    <section class="numbers section">
+    <section class="numbers section" id="numbers">
         <div class="container">
 
             <div class="row section-title">
@@ -308,7 +309,7 @@
     </section>
 
     <!-- TESTIMONIALS -->
-    <section class="testimonials section">
+    <section class="testimonials section" id="testimonials">
         <div class="container">
             <div class="row section-title">
                 <h1>Client's <span class="bold-green">testimonials</span></h1>
@@ -359,7 +360,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="contact section">
+    <section class="contact section" id="contact">
         <div class="container">
 
             <div class="row section-title">
@@ -431,6 +432,7 @@
 
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
     <script src="js/main.js"></script>
 
 </body>
